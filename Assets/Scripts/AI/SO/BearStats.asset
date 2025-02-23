@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d9a6fc830bba44bfeccc110cbb702, type: 3}
+  m_Name: BearStats
+  m_EditorClassIdentifier: 
+  MaxStayTimeBorders: {x: 5, y: 5}
+  FollowRange: 15
+  AttackRange: 3.5
+  Power: 10
+  MaxHealth: 25
+  Drop:
+  - {fileID: 11400000, guid: 82dffa7a49548474092c1bf183068067, type: 2}
+  - {fileID: 11400000, guid: 2b3d19310a3633142b841b8bbe7bce5d, type: 2}
+  DropCount: 0200000001000000
